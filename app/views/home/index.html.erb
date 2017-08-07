@@ -1,1 +1,25 @@
-<h1>Hello, Jade!</h1>
+<h1>Hello, I am brown and furry, what am I?</h1>
+
+
+
+<%= form_for :Cat, url: home_index_path do |f| %>
+  <!-- <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :text %><br>
+    <%= f.text_area :text %>
+  </p> -->
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+<%= form_for :Dog, url: home_index_path do |f| %>
+<p>
+  <%= f.submit %>
+</p>
+<% end %>
