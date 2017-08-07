@@ -1,6 +1,7 @@
+<h1>Welcome to AnimalBot! I want to play a little game...</h1>
+<%=image_tag("rhino.png", alt: "Example Image")%>
+
 <h1>Hello, I am brown and furry, what am I?</h1>
-
-
 
 <%= form_for :Cat, url: home_index_path do |f| %>
   <!-- <p>
@@ -14,12 +15,12 @@
   </p> -->
 
   <p>
-    <%= f.submit %>
+    <%= f.submit "Cat" %>
   </p>
 <% end %>
 
 <%= form_for :Dog, url: home_index_path do |f| %>
 <p>
-  <%= f.submit %>
+  <%= f.submit "Dog" %>
 </p>
 <% end %>
