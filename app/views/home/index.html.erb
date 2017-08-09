@@ -3,24 +3,9 @@
 
 <h1>Hello, I am brown and furry, what am I?</h1>
 
-<%= form_for :Cat, url: home_index_path do |f| %>
-  <!-- <p>
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
-  </p>
 
-  <p>
-    <%= f.label :text %><br>
-    <%= f.text_area :text %>
-  </p> -->
+<%= link_to "Pretty sure this furry creature is a cat", cat_path %>
 
-  <p>
-    <%= f.submit "Cat" %>
-  </p>
-<% end %>
+<%= link_to "Definitely think it has to be a dog", dog_path %>
 
-<%= form_for :Dog, url: home_index_path do |f| %>
-<p>
-  <%= f.submit "Dog" %>
-</p>
-<% end %>
+<%= link_to "There is no way this is not a rabbit", rabbit_path %>
