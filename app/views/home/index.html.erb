@@ -1,11 +1,12 @@
 <h1>Welcome to AnimalBot! I want to play a little game...</h1>
-<%=image_tag("rhino.png", alt: "Example Image")%>
+<p><%=image_tag("rhino.png", alt: "Example Image")%></p>
 
 <h1>Hello, I am brown and furry, what am I?</h1>
 
+<p><%= link_to "<button>Pretty sure this furry creature is a cat</button>".html_safe, cat_path, :id => "button_id", :class => "button_class" %></p>
 
-<%= link_to "Pretty sure this furry creature is a cat", cat_path %>
 
-<%= link_to "Definitely think it has to be a dog", dog_path %>
+<p><%= link_to "<button>Definitely think it has to be a dog</button>".html_safe, dog_path, :id => "button_id", :class => "button_class" %></p>
 
-<%= link_to "There is no way this is not a rabbit", rabbit_path %>
+
+<p><%= link_to "<button>There is no way this is not a rabbit</button>".html_safe, rabbit_path, :id => "button_id", :class => "button_class" %></p>

@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get '/cat', controller: 'cat', action: 'index'
   get '/dog', controller: 'dog', action: 'index'
   get '/rabbit', controller: 'rabbit', action: 'index'
+  get '/lost', controller: 'lost', action: 'index'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
