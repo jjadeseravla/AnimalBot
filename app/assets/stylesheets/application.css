@@ -15,12 +15,12 @@
  */
 
 h1 {
-  animation: type 4s steps(46);
+  animation: type 4s steps(55);
   overflow:hidden;
   white-space:nowrap;
   font-family: monospace;
   border-right:4px solid black;
-  width: 46ch;
+  width: 55ch;
   margin: 0 auto;
 }
 @keyframes type {
@@ -28,7 +28,43 @@ h1 {
     width:0ch;
   }
   100% {
-    width:46ch;
+    width:55ch;
+  }
+}
+
+h2 {
+  animation: type 4s steps(45);
+  overflow:hidden;
+  white-space:nowrap;
+  font-family: monospace;
+  border-right:4px solid black;
+  width: 45ch;
+  margin: 0 auto;
+}
+@keyframes type {
+  0% {
+    width:0ch;
+  }
+  100% {
+    width:45ch;
+  }
+}
+
+h3 {
+  /*animation: type 4s steps(45);*/
+  overflow:hidden;
+  white-space:nowrap;
+  font-family: monospace;
+  border-right:4px solid black;
+  width: 45ch;
+  margin: 0 auto;
+}
+@keyframes type {
+  0% {
+    width:0ch;
+  }
+  100% {
+    width:45ch;
   }
 }
 

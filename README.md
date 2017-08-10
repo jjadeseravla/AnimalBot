@@ -1,9 +1,6 @@
 
 # AnimalBot
 
-[About](#What-is-this?) | [Instructions](#How-do-I-use-it?) | [Technologies used](#Technologies-used) | [Approach](#Approach) | [Development](#Development) |
-
-
 # What is this?
 
 Simplified Chat bot with pre-written messages on buttons allowing user to communicate with bot in order to guess the animal AnimalBot is describing.
@@ -46,19 +43,3 @@ Follow AnimalBot's friendly instructions on the page :)
 - Ruby 2.4.1
 - Rails 5.1.2
 - Rspec testing framework
-
-
-# Development
-
-
-
-# Approach
-
-
-
-#### Approaching the problem:
-
-
-
-#### Screenshot of the homepage:
-![AnimalBot]()
